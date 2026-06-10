@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness RPG System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header>
+      <h1>🏋️ Fitness RPG System</h1>
+      <p>Train → Earn XP → Level Up</p>
+    </header>
+
+    <div class="card">
+
+      <div class="stats">
+        <h2>Player Stats</h2>
+        <p>Level: <span id="level">1</span></p>
+        <p>XP: <span id="xp">0</span> / 100</p>
+      </div>
+
+      <div class="progress">
+        <div id="bar"></div>
+      </div>
+
+      <div class="actions">
+        <button onclick="addXP(10)">🏃 Run (+10 XP)</button>
+        <button onclick="addXP(20)">💪 Workout (+20 XP)</button>
+        <button onclick="addXP(50)">🔥 Hardcore (+50 XP)</button>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
