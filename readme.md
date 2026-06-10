@@ -9,10 +9,11 @@ This project transforms fitness activities into a role-playing game experience w
 ## 👨‍💻 About Developer
 
 **Iqbolshoh Ilhomjonov**
+<pre>
 🚀 Full-Stack Developer
 🌍 Samarkand, Uzbekistan 🇺🇿
 💼 Freelancer | Web Developer
-📈 Passionate About Modern Web Applications
+📈 Passionate About Modern Web Applications</pre>
 
 ---
 
