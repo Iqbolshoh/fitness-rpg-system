@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Training</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">
+  <div class="logo">🏋️ Fitness RPG</div>
+  <div>
+    <a href="index.html">Home</a>
+    <a class="active" href="training.html">Training</a>
+    <a href="profile.html">Profile</a>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="card">
+    <h2>⚡ Training Mode</h2>
+
+    <p>Level: <span id="level">1</span></p>
+    <p>XP: <span id="xp">0</span>/100</p>
+
+    <div class="progress">
+      <div id="bar"></div>
+    </div>
+
+    <button onclick="addXP(10)">🏃 Run +10 XP</button>
+    <button onclick="addXP(20)">💪 Workout +20 XP</button>
+    <button onclick="addXP(50)">🔥 Hardcore +50 XP</button>
+
+  </div>
+
+</div>
+
+<footer>⚡ Train Hard. Level Up.</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

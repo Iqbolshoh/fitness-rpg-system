@@ -9,8 +9,11 @@ function addXP(value) {
     xp = xp - 100;
   }
 
-  document.getElementById("xp").innerText = xp;
-  document.getElementById("level").innerText = level;
+  const xpEl = document.getElementById("xp");
+  const lvlEl = document.getElementById("level");
+  const bar = document.getElementById("bar");
 
-  document.getElementById("bar").style.width = xp + "%";
+  if (xpEl) xpEl.innerText = xp;
+  if (lvlEl) lvlEl.innerText = level;
+  if (bar) bar.style.width = xp + "%";
 }
