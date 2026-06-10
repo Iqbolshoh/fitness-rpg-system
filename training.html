@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Training</title>
+  <title>Training - Fitness RPG</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,24 +18,39 @@
 <div class="container">
 
   <div class="card">
-    <h2>⚡ Training Mode</h2>
+    <h2>⚡ Training Dashboard</h2>
+    <p>Complete missions and earn XP to level up your character.</p>
+  </div>
+
+  <div class="card">
+    <h3>🎮 Active Missions</h3>
+
+    <button onclick="addXP(10)">🏃 Morning Run (+10 XP)</button>
+    <button onclick="addXP(15)">🚶 Walking Session (+15 XP)</button>
+    <button onclick="addXP(20)">💪 Gym Workout (+20 XP)</button>
+    <button onclick="addXP(30)">🏋️ Strength Training (+30 XP)</button>
+    <button onclick="addXP(50)">🔥 Hardcore Challenge (+50 XP)</button>
+
+  </div>
+
+  <div class="card">
+    <h3>📊 Progress Status</h3>
 
     <p>Level: <span id="level">1</span></p>
-    <p>XP: <span id="xp">0</span>/100</p>
+    <p>XP: <span id="xp">0</span> / 100</p>
 
     <div class="progress">
       <div id="bar"></div>
     </div>
 
-    <button onclick="addXP(10)">🏃 Run +10 XP</button>
-    <button onclick="addXP(20)">💪 Workout +20 XP</button>
-    <button onclick="addXP(50)">🔥 Hardcore +50 XP</button>
-
+    <p style="opacity:0.6;font-size:13px;">
+      Tip: Consistency is the key. Train daily to level up faster.
+    </p>
   </div>
 
 </div>
 
-<footer>⚡ Train Hard. Level Up.</footer>
+<footer>⚡ Keep grinding. No excuses.</footer>
 
 <script src="script.js"></script>
 </body>
