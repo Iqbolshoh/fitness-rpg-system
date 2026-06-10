@@ -17,3 +17,15 @@ function addXP(value) {
   if (lvlEl) lvlEl.innerText = level;
   if (bar) bar.style.width = xp + "%";
 }
+
+/* BACKGROUND SLIDER */
+let index = 0;
+const backgrounds = document.querySelectorAll(".bg");
+
+function changeBg() {
+  backgrounds.forEach(b => b.classList.remove("active"));
+  index = (index + 1) % backgrounds.length;
+  backgrounds[index].classList.add("active");
+}
+
+setInterval(changeBg, 4000);
