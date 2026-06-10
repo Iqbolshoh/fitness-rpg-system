@@ -8,17 +8,26 @@
 </head>
 <body>
 
+  <!-- HEADER -->
+  <header class="topbar">
+    <h1>🏋️ Fitness RPG System</h1>
+    <p>Train • Earn XP • Level Up</p>
+  </header>
+
   <div class="container">
 
-    <header>
-      <h1>🏋️ Fitness RPG System</h1>
-      <p>Train → Earn XP → Level Up</p>
-    </header>
-
+    <!-- HERO CARD -->
     <div class="card">
 
+      <div class="profile">
+        <img src="https://i.imgur.com/8Km9tLL.png" alt="avatar">
+        <div>
+          <h2>Player</h2>
+          <span>Beginner Warrior</span>
+        </div>
+      </div>
+
       <div class="stats">
-        <h2>Player Stats</h2>
         <p>Level: <span id="level">1</span></p>
         <p>XP: <span id="xp">0</span> / 100</p>
       </div>
@@ -28,14 +37,19 @@
       </div>
 
       <div class="actions">
-        <button onclick="addXP(10)">🏃 Run (+10 XP)</button>
-        <button onclick="addXP(20)">💪 Workout (+20 XP)</button>
-        <button onclick="addXP(50)">🔥 Hardcore (+50 XP)</button>
+        <button onclick="addXP(10)">🏃 Run +10 XP</button>
+        <button onclick="addXP(20)">💪 Workout +20 XP</button>
+        <button onclick="addXP(50)">🔥 Hardcore +50 XP</button>
       </div>
 
     </div>
 
   </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>⚡ Built by Iqbolshoh | Fitness RPG System</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
